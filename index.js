@@ -3,7 +3,7 @@ var cheerio = require('cheerio');
 var queryString = require('querystring');
 var flatten = require('lodash.flatten');
 
-var baseURL = 'http://images.google.com/search?';
+var baseURL = 'https://cors-anywhere.herokuapp.com/http://images.google.com/search?';
 
 var imageFileExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg'];
 
